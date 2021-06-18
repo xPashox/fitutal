@@ -1,8 +1,16 @@
-<div align=center><img src="https://i98.servimg.com/u/f98/12/25/64/56/logo10.png">
-<br> <h1>FitUtal</h1></div>
+# untitled
 
-<br>
-<div align=center>
-<img src='https://img.shields.io/badge/Version-1.0_alpha-13696F?style=for-the-badge&logo=csharp&logoColor=ffffff'>
-<img src='https://img.shields.io/badge/.NET Core-v3.1-CB3837?style=for-the-badge&logo=visualstudio&logoColor='>
-</div>
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
