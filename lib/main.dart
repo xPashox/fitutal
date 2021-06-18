@@ -1,5 +1,10 @@
 
 import 'package:flutter/material.dart';
+import './secciones/home.dart';
+import './secciones/desafios.dart';
+import './secciones/perfil.dart';
+import './secciones/ejercicios.dart';
+import './secciones/canjePuntos.dart';
 
 void main() {
   runApp(
@@ -7,6 +12,17 @@ void main() {
         home: Login(),
         routes: <String, WidgetBuilder>{
           '/login': (BuildContext context) => Login(),
+          '/home': (BuildContext context) => Inicio(),
+          '/desafios': (BuildContext context) => Desafios(),
+          '/perfil': (BuildContext context) => Perfil(),
+          '/perfil/historial': (BuildContext context) => Historial(),
+          '/ejercicios': (BuildContext context) => Ejercicios(),
+          '/ejercicios/cuerpoCompleto': (BuildContext context) => EjerciciosCuerpoCompleto(),
+          '/ejercicios/parteSuperior': (BuildContext context) => EjerciciosParteSuperior(),
+          '/ejercicios/parteInferior': (BuildContext context) => EjerciciosParteInferior(),
+          '/ejercicios/cardio': (BuildContext contex) => EjerciciosCardio(),
+          '/tienda': (BuildContext context) => Tienda(),
+          '/tienda/beneficios': (BuildContext context) => BeneficiosCanjeados() 
         },
     )
   );
@@ -38,6 +54,7 @@ class Login extends StatelessWidget{
         )
       )
       );
+
     final inputPassword= Padding(
       padding: EdgeInsets.only(bottom:20),
       child: TextField(
@@ -68,6 +85,7 @@ class Login extends StatelessWidget{
         onPressed: () => {},
       ),),
     );
+
     final buttonOlvidaPassword= FlatButton(
       child: Text(
         '¿Olvidaste tu contraseña?',
@@ -75,6 +93,8 @@ class Login extends StatelessWidget{
         ),
       onPressed: () =>{},
       );
+
+      
     return new Scaffold(
       backgroundColor: Colors.grey[200],
        body: Center (
