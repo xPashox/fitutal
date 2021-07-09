@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "999550157322",
+    "project_id": "fitutal",
+    "storage_bucket": "fitutal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999550157322:android:07fe9fc9bc4adc3f8715f3",
+        "android_client_info": {
+          "package_name": "com.example.fitutal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999550157322-is0q5imalnrbsr85vtn7m07b709q3nff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0lbvDntGwDkzjJpNqdH5WPU_lEbjyU-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999550157322-is0q5imalnrbsr85vtn7m07b709q3nff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
